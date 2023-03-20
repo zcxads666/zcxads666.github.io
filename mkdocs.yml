@@ -50,7 +50,56 @@ plugins:
       jieba_dict: user_dict.txt
 
 
-
+nav:
+  - '概述': 'index.md'
+  - '计算机网络':
+    - '第一章：计算机网络概述':
+        - '计算机网络在信息时代的作用': './CN/Chapter_1_introduction/1.计算机网络在信息时代的作用.md'
+        - '因特网的概述': './CN/Chapter_1_introduction/2.因特网的概述.md'
+        - '计算机网络的类别': './CN/Chapter_1_introduction/3.计算机网络的类别.md'
+        - '计算机网络的性能评价指标': './CN/Chapter_1_introduction/4.计算机网络性能评价指标.md'
+        - '计算机网络体系结构': './CN/Chapter_1_introduction/5.计算机网络体系结构.md'
+        - '计算机网络体系结构的专用术语': './CN/Chapter_1_introduction/6.计算机网络体系结构专用术语.md'
+    - '第二章：物理层':
+        - '物理层的基本概念': './CN/Chapter_2_physicalLayer/1.物理层的基本概念.md'
+        - '数据通信基础': './CN/Chapter_2_physicalLayer/2.数据通信的基础知识.md'
+        - '物理层下的传输媒体': './CN/Chapter_2_physicalLayer/3.物理层下面的传输媒体.md'
+        - '编码与调制': './CN/Chapter_2_physicalLayer/4.编码与调制.md'
+        - '物理层设备': './CN/Chapter_2_physicalLayer/5.物理层设备.md'
+    - '第三章：数据链路层':
+        - '数据链路层概述': './CN/Chapter_3_dataLinkLayer/1. 数据链路层概述.md'
+        - '三个基本问题': './CN/Chapter_3_dataLinkLayer/2. 三个基本问题.md'
+        - '可靠传输': './CN/Chapter_3_dataLinkLayer/3. 可靠传输.md'
+        - '点对点PPP协议': './CN/Chapter_3_dataLinkLayer/4. 点对点PPP协议.md'
+  - '数据库系统概论':
+    - '第一章：绪论':
+        - '数据库概念': './DBS/Chapter_1_introduction/01_databaseConcept.md'
+        - '数据模型': './DBS/Chapter_1_introduction/02_dataModel.md'
+        - '数据库系统结构': './DBS/Chapter_1_introduction/03_databaseSystemStructure.md'
+    - '第二章：关系数据库':
+        - '数据结构及其定义': './DBS/Chapter_2_relationDB/01_relationDB_structureAndDefine.md'
+        - '完整性约束': './DBS/Chapter_2_relationDB/02_relationDB_IntegrityConstraint.md'
+        - '数据操纵': './DBS/Chapter_2_relationDB/03_relationDB_control.md'
+  - "MySQL":
+      - '基础篇':
+          - "第01章 数据库概述": "./MySQL/01.DatabaseOverview.md"
+          - "第02章 数据库安装": "./MySQL/02. DatabaseSetUp.md"
+          - "第03章 基本的SELECT语句": "./MySQL/03. SQLbasicStatement.md"
+          - "第04章 运算符": "./MySQL/04. Operator.md"
+          - "第05章 排序与分页": "./MySQL/05. SortAndPage.md"
+          - "第06章 多表查询": "./MySQL/06. Multi-tableQueries.md"
+          - "第07章 单行函数": "./MySQL/07. Function.md"
+          - "第08章 聚合函数": "./MySQL/08. AggregateFunction.md"
+          - "第09章 子查询": "./MySQL/09. Subquery.md"
+          - "第10章 创建和管理表": "./MySQL/10. CreateAndManageTables.md"
+          - "第11章 数据处理之增删改": "./MySQL/11. CDU.md"
+          - "第12章 MySQL数据类型精讲": "./MySQL/12. DataType.md"
+          - "第13章 约束": "./MySQL/13. Constraint.md"
+          - "第14章 视图": "./MySQL/14. View.md"
+          - "第15章 存储过程与函数": "./MySQL/15. StoredProcedures.md"
+          - "第16章 变量、流程控制与游标": "./MySQL/16. VCC.md"
+          - "第17章 触发器": "./MySQL/17. OtherDBlogs.md"
+          - "第18章 MySQL8其它新特性": "./MySQL/18. OtherCharacteristics.md"
 
 # 图标
 icon:
