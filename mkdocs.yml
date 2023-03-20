@@ -1,12 +1,12 @@
 #site_name: My Docs
 #theme:
   #name: 'material'
-site_name: My Docs
+  site_name: My zcxads
 site_description: 在线云文档
-site_author: 小康
-copyright: Copyright &copy; 2022 - 2099 小康
+site_author: zcxads
+copyright: Copyright &copy; 2022 - 2099 zcxads
 site_url: https://mkdocs.codeslive.top/
-repo_url: https://github.com/codeslive/mkdocs
+repo_url: https://github.com/zcxads666/zcxads666.github.io
 repo_name: mkdocs
 edit_uri: ""
 # 主题配置
@@ -116,7 +116,7 @@ extra:
             link: https://codeslive.github.io
             name: myblog
         -   icon: fontawesome/solid/paper-plane
-            link: 2783779285@qq.com
+            link: 1316510990@qq.com
             name: 邮箱地址
 
 
